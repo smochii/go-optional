@@ -12,11 +12,6 @@ type S struct {
 	C optional.Optional[float64]
 }
 
-type C struct {
-	A string
-	B int
-}
-
 func main() {
 	s := S{
 		A: optional.New("hello"),
